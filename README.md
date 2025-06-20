@@ -23,7 +23,6 @@ A análise ajuda a entender os principais fatores associados ao cancelamento de 
 Análise da quantidade de clientes que deram **churn** (cancelaram o serviço) e **não churn** (permaneceram)
 
 #### 🎯 Distribuição de Churn por Gênero
-
 Observamos que não há uma influência do gênero entre os clientes que cancelaram o serviço. Haja vista o número muito próximo entre eles.
 ![Gráfico de churn por gênero](figs/churn_by_gender.png)
 ---
