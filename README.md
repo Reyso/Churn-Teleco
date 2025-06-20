@@ -19,20 +19,24 @@ A análise ajuda a entender os principais fatores associados ao cancelamento de 
 ## 🔍 Análises
 
 ### Grupo 1: Chrun x (Gênero, Senioridade , Parceiro/ Cônjude e Dependentes  )
+
 Análise da quantidade de clientes que deram **churn** (cancelaram o serviço) e **não churn** (permaneceram)
 
 #### 🎯 Distribuição de Churn por Gênero
+
 Observamos que não há uma influência do gênero entre os clientes que cancelaram o serviço. Haja vista o número muito próximo entre eles.
 ![Gráfico de churn por gênero](figs/churn_by_gender.png)
 ---
 
 #### 🎯 Distribuição de Churn por Senioridade
+
 Bem como na distribuição por gênero, não há uma significância que demonstre que pessoas mais velhas estão mais propensas a cancelar o serviço.
 ![Gráfico de churn por senioridade](figs/churn_by_senior.png)
 ---
 
 
 #### 🎯 Distribuição de Churn por Cônjude
+
 Clientes que possuem um parceiro (a) permaneceram com o serviço da empresa, um número cerca de 50% menor do que aqueles que são solteiros.
 Uma demonstração que produtos multiserviços, como internet fibra, móvel, e outros serviços em um 1 só pacote para toda a família são propostas interessantes para fidelização do consumidor.
 
@@ -40,6 +44,7 @@ Uma demonstração que produtos multiserviços, como internet fibra, móvel, e o
 ---
 
 #### 🎯 Distribuição de Churn por Clientes com dependentes
+
 O cancelamento do serviço foi consideravelmente maior nos casos de clientes que não tem dependentes. Como podemos observar no gráfico abaixo, temos quase 5x mais pessoas que deixaram de ser clientes, em relação a pessoas com dependente.
 
 ![Gráfico de churn por dependentes](figs/churn_by_dep.png)
