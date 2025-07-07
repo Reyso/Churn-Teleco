@@ -39,8 +39,7 @@ De fato! mais de 50% dos clientes que possuem tempo de contrato de 0 a 6 meses, 
 - Distribuição assimétrica, concentrada em clientes com baixas cobranças acumuladas.
 
 ![TotalCharges Distribution](figs/prop_churn_totalcharges.png)
-
-Seguimentando o total gasto pelo cliente (Total Charges) em 4 intervalos, observamo que o maior número de cancelamento de serviço se dá na faixa de menor valor de até $1000. O que é perfeitamente compreensível uma vez que clientes com menos tempo de contrato tendem a cancelar o serviço e o montante arrecadado pela empresa deverá ser menor.
+<p>Seguimentando o total gasto pelo cliente (Total Charges) em 4 intervalos, observamo que o maior número de cancelamento de serviço se dá na faixa de menor valor de até $1000. O que é perfeitamente compreensível uma vez que clientes com menos tempo de contrato tendem a cancelar o serviço e o montante arrecadado pela empresa deverá ser menor.</p>
 ---
 
 ### 3.4 - Distribuição de Cobrança Mensal (MonthlyCharges)
@@ -59,7 +58,7 @@ Ao contrário dos clientes da faixa $4000+ que possui as maiores médias de temp
 ## Grupo 1 - Churn vs (Gender | SeniorCitizen | Partner | Dependents)
 ### 1.1 - Churn vs Gênero
 ![Churn vs Gender](figs/churn_by_gender.png)
-Há um balancemaneto de amostra de clientes do sexo femino e masculino.
+<p>Há um balancemaneto de amostra de clientes do sexo femino e masculino.</p>
 ---
 ### 1.2 - Churn vs Idosos (SeniorCitizen)
 ![Churn vs SeniorCitizen](figs/churn_by_senior.png)
