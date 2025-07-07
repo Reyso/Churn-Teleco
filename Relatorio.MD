@@ -1,7 +1,7 @@
 # Análise Exploratória de Dados (EDA) - Telecom Churn
 
 ## 1. Introdução
-The Telco customer churn data contains information about a fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. It indicates which customers have left, stayed, or signed up for their service. 
+The Telco customer churn data contains information about a fictional telco company that proviUm número expressivoded home phone and Internet services to 7043 customers in California in Q3. It indicates which customers have left, stayed, or signed up for their service. 
 
 ---
 
@@ -76,12 +76,12 @@ Semelhante ao caso dos parceiros, os casos de cancelamento são maiores para aqu
 
 ### 2.1 - Churn vs Serviço de telefonia (PhoneService)
 ![Churn vs PhoneService](figs/churn_by_phone.png)
-Um número expressivo de clientes, 90%, possui serviço de telefonia, porém, a oferta pode abranger tanto telefonia quanto internet.
+Um número expressivo de clientes, 90% (6352 clientes), possui serviço de telefonia, porém, a oferta pode abranger tanto telefonia quanto internet.
 Destes clientes, 36.5% cancelaram o serviço por algum motivo.
 ---
 ### 2.2 - Churn vs Multiplas Linhas (MultipleLines)
 ![Churn vs MultipleLines](figs/churn_by_MultipleLines.png)
-Ainda sobre os serviço de telefonia prestado, um pouco menos de 50% dos clientes possuem multiplas linhas disponível em suas residências. Um fato interessante é que ambos possuem a mesma taxa de churn. Então ter ou não multiplas linhas não é um fator que demonstra maior taxa de cancelamento.
+Ainda sobre os serviço de telefonia prestado, cerca de  42.2% (2667) dos clientes possuem multiplas linhas disponível em suas residências. Um fato interessante é de se notar, é que ter ou não multiplas linhas possuem um número muito semelhante de cancelamento, o que nos leva a crer que isto não é um fator determinante para o rompimento de contrato pela parte dos usuários.
 
 
 ---
