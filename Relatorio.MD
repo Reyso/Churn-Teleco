@@ -39,6 +39,7 @@ De fato! mais de 50% dos clientes que possuem tempo de contrato de 0 a 6 meses, 
 - Distribuição assimétrica, concentrada em clientes com baixas cobranças acumuladas.
 
 ![TotalCharges Distribution](figs/prop_churn_totalcharges.png)
+
 Seguimentando o total gasto pelo cliente (Total Charges) em 4 intervalos, observamo que o maior número de cancelamento de serviço se dá na faixa de menor valor de até $1000. O que é perfeitamente compreensível uma vez que clientes com menos tempo de contrato tendem a cancelar o serviço e o montante arrecadado pela empresa deverá ser menor.
 ---
 
