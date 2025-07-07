@@ -58,7 +58,7 @@ Ao contrário dos clientes da faixa $4000+ que possui as maiores médias de temp
 ## Grupo 1 - Churn vs (Gender | SeniorCitizen | Partner | Dependents)
 ### 1.1 - Churn vs Gênero
 ![Churn vs Gender](figs/churn_by_gender.png)
-<p>Há um balancemaneto de amostra de clientes do sexo femino e masculino.</p>
+Há um balancemaneto de amostra de clientes do sexo femino e masculino.
 ---
 ### 1.2 - Churn vs Idosos (SeniorCitizen)
 ![Churn vs SeniorCitizen](figs/churn_by_senior.png)
