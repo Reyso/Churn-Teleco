@@ -66,6 +66,7 @@ Temos um número muito pequeno de clientes idosos cerca de 1142, no entanto, cer
 ---
 ### 1.3 - Churn vs Parceiros(Partner)
 ![Churn vs Partner](figs/churn_by_partner.png)
+
 Clientes que possuem parceiros(as) tem menos cancelamentos em comparação com aqueles que vivem ao lado de outra pessoa.
 ---
 ### 1.4 - Churn vs Dependentes
