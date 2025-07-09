@@ -173,6 +173,57 @@ Como visto anteriormente por meio de diferentes análises, o churn é significat
 
 ---
 
-## 5 - Perfis de Risco.
+## 5 - Perfis de Risco
 
-Será necessário oferecer opções de serviços que incentivem maior tempo de contrato e benefícios de proteção de dados e segurança online como estratégia para retenção de clientes.
+A partir da análise exploratória realizada, foi possível identificar diferentes segmentos de clientes com níveis distintos de risco de cancelamento. Estes perfis foram construídos com base nas variáveis mais impactantes sobre o churn, como tempo de contrato, forma de pagamento, serviços adicionais e características demográficas.
+
+### 🔴 Perfil 1: Altíssimo Risco de Churn
+- **Contrato:** Mensal
+- **Forma de Pagamento:** Cheque Eletrônico
+- **Tempo de Contrato:** Inferior a 6 meses
+- **Serviços Adicionais:** Sem serviços de segurança online, backup ou suporte técnico
+- **Cobrança Total:** Inferior a $1000
+- **Descrição:**
+  Clientes recém-adquiridos, com pouca fidelização e baixa percepção de valor agregado. Estes clientes utilizam métodos de pagamento mais voláteis e não possuem vínculo com serviços adicionais, o que os torna altamente suscetíveis ao churn.
+
+---
+
+### 🟠 Perfil 2: Risco Moderado de Churn
+- **Contrato:** Mensal
+- **Forma de Pagamento:** Diversos métodos (inclusive automáticos)
+- **Serviços:** Internet por fibra óptica, mas com ausência de pacotes adicionais
+- **Demografia:** Clientes sem parceiro(a) e sem dependentes
+- **Descrição:**
+  Este perfil reúne clientes que valorizam velocidade, mas não se conectam com serviços adicionais que poderiam aumentar a fidelização. O risco é acentuado para clientes solteiros e sem responsabilidades familiares.
+
+---
+
+### 🟡 Perfil 3: Risco Potencial
+- **Contrato:** Mensal ou anual
+- **Serviços:** Com serviços de streaming, porém sem proteção de dispositivos ou suporte técnico
+- **Descrição:**
+  Clientes parcialmente engajados com o serviço, porém desprotegidos em termos de suporte e segurança. Podem migrar para concorrentes que ofereçam pacotes mais completos.
+
+---
+
+### 🟢 Perfil 4: Baixo Risco de Churn
+- **Contrato:** Anual ou Bianual
+- **Forma de Pagamento:** Débito Automático ou Cartão de Crédito
+- **Tempo de Contrato:** Superior a 24 meses
+- **Serviços:** Pacotes completos (segurança online, backup, suporte técnico, serviços de streaming)
+- **Demografia:** Clientes com parceiro(a) e dependentes
+- **Descrição:**
+  Estes clientes apresentam maior tempo de relacionamento com a empresa, múltiplos serviços contratados e métodos de pagamento automáticos, características que demonstram alta fidelização e baixo risco de churn.
+
+---
+
+### 📌 Recomendações Estratégicas
+- Focar ações de retenção nos clientes do **Perfil 1 e Perfil 2**, oferecendo:
+  - Benefícios exclusivos para contratos de maior duração.
+  - Pacotes de segurança online e suporte técnico com descontos no início do contrato.
+  - Campanhas educacionais para demonstrar o valor agregado dos serviços adicionais.
+- Oferecer migração facilitada de métodos de pagamento voláteis para métodos automáticos.
+- Monitorar clientes recém-adquiridos e criar planos de onboarding mais eficazes para melhorar a experiência inicial e reduzir o churn precoce.
+
+---
+
