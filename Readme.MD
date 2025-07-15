@@ -2,6 +2,9 @@
 
 **Objetivo**: Prever a rotatividade de clientes (churn) em uma empresa de telecomunicações usando XGBoost com dados processados no Databricks.
 
+**Veja também o relatório EDA**
+Relatório [EDA](https://github.com/Reyso/Churn-Teleco/blob/main/Relatorio.pdf) 
+
 ---
 
 ## 🛠️ Fluxo de Dados (Databricks)
@@ -72,7 +75,8 @@ A área sob a curva ROC (AUC = 0.84) confirma uma boa capacidade discriminativa 
 
 
 
-![importance](figs_/feature_importance_weight.png.png)
+![importance](figs_/feature_importance_weight.png)
+Principais features conforme o seu "peso", em outras palávras quanto mais a feature divide os dados (lembremos que xgboostclf é um modelo de árvore) mais ela tem peso na decisão.
 
 
     Métricas de Otimização: Foco em maximizar AUC-PR (Precision-Recall) devido 
