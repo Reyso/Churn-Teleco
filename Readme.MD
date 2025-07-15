@@ -18,13 +18,12 @@
 ---
 
 ## 🔍 Análise e Seleção de Features
-- **Correlação com Target**: Seleção inicial baseada em correlação
+- **Correlação com Target**: Identificação das variáveis numéricas mais relacionadas ao churn 
 
 ![Data Pipeline](figs_/corr_churn.png)
 
-- **Teste Qui-Quadrado**: Filtro estatístico (features com score <20 removidas, `qui2.png`)
-  
-![Feature Selection](images/qui2.png)
+- **Teste Qui-Quadrado**: Filtragem estatística para selecionar apenas features com maior significância (p-valor > 20)
+![Feature Selection](figs_/qui2.png)
 
 ---
 
