@@ -63,8 +63,16 @@ O modelo apresenta alta precisão (90%) para a classe majoritária (Não-Churn),
 
 
 ![roc](figs_/xgboost_roc.png)
-
 ![confusao](figs_/matriz_confusao.png)
+A área sob a curva ROC (AUC = 0.84) confirma uma boa capacidade discriminativa do modelo. No entanto, a análise da curva Precision-Recall evidencia um dilema crítico:
+
+  Para aumentar o recall (capturar mais churns reais), a precisão cai rapidamente, gerando mais falsos positivos.
+
+  Se priorizarmos a precisão (reduzir falsos positivos), deixamos de identificar churns reais.
+
+
+
+![importance](figs_/feature_importance_weight.png.png)
 
 
     Métricas de Otimização: Foco em maximizar AUC-PR (Precision-Recall) devido 
